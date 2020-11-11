@@ -1,0 +1,26 @@
+.headercontainer{
+    height: auto;
+    width: auto;
+    margin-bottom: 25px;
+    position: fixed;
+    z-index: 999;
+    background-color: black;
+    color: white;
+    right: 15px;
+    top: 20%;
+}
+
+.option{
+    padding: 20px 10px;
+    cursor: pointer;
+    height: 35px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.linkoption{
+    color: black;
+    text-decoration: none;
+    color: white;
+}

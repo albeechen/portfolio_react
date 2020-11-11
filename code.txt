@@ -1,0 +1,17 @@
+<div>
+                <p className='skill'>JavaScript</p>
+                <p className='skill'>Python</p>
+                <LinearWithValueLabel className='progressbar' value={80} />
+            </div>
+            <div>
+                <p className='skill'>Python</p>
+                <LinearWithValueLabel className='progressbar' value={70} />
+            </div>
+            <div>
+                <p className='skill'>HTML/CSS/SCSS</p>
+                <LinearWithValueLabel className='progressbar' value={100} />
+            </div>
+            <div>
+                <p className='skill'>React</p>
+                <LinearWithValueLabel value={70} />
+            </div>
