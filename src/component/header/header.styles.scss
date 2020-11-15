@@ -20,7 +20,11 @@
 
 
 .linkoption{
-    color: black;
     text-decoration: none;
     color: white;
+
+    :active{
+        color: yellow;
+        text-decoration: underline;
+    }
 }

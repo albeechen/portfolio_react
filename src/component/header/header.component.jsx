@@ -3,10 +3,10 @@ import './header.styles.scss';
 
 const HeaderPage = () => (
   <div className='headercontainer'>
-    <div className='option'><a className='linkoption' href='#home'>HOME</a></div>
-    <div className='option'><a className='linkoption' href='#project'>PROJECT</a></div>
-    <div className='option'><a className='linkoption' href='#skills'>SKILL</a></div>
-    <div className='option'><a className='linkoption' href='#contact'>CONTACT</a></div>
+    <a className='linkoption' href='#home'><div className='option'>HOME</div></a>
+    <a className='linkoption' href='#project'><div className='option'>PROJECT</div></a>
+    <a className='linkoption' href='#skills'><div className='option'>SKILLS</div></a>
+    <a className='linkoption' href='#contact'><div className='option'>CONTACT</div></a>
   </div>
 );
 
