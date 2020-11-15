@@ -16,9 +16,11 @@ const ContactPage = () => (
                 <div><RoomIcon className='contactitem'/> <p className='contactitem'>Aliso Viejo, CA</p></div>
                 <div><EmailIcon className='contactitem' /> <p className='contactitem'>linda3632000@hotmail.com</p></div>
                 <div>
-                    <Button>
-                        <GetAppIcon className='contactitem' /> <p className='contactitem'>Download resume(.pdf)</p>
-                    </Button>
+                    
+                        <a className='contactitem' href="../../assets/Resume_Albee_Chen_1102.pdf" download>
+                            <GetAppIcon className='contactitem' /> Download resume(.pdf)                
+                        </a>
+                    
                 </div>
             </div>
             
