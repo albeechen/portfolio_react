@@ -22,9 +22,9 @@
 .linkoption{
     text-decoration: none;
     color: white;
+}
 
-    :active{
-        color: yellow;
-        text-decoration: underline;
-    }
+.linkoption:active{
+    color: yellow;
+    text-decoration: underline;
 }
