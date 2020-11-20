@@ -12,18 +12,11 @@ const ContactPage = () => (
         
         <div className='contactcontent'>   
             <div className='contactimg'></div>
-            <div className='contactinfo'>
+            <div>
                 <div><RoomIcon className='contactitem'/> <p className='contactitem'>Aliso Viejo, CA</p></div>
-                <div><EmailIcon className='contactitem' /> <p className='contactitem'>linda3632000@hotmail.com</p></div>
-                <div>
-                    
-                        <a className='contactitem' href="../../assets/Resume_Albee_Chen_1102.pdf" download>
-                            <GetAppIcon className='contactitem' /> Download resume(.pdf)                
-                        </a>
-                    
-                </div>
-            </div>
-            
+                <div><EmailIcon className='contactitem'/> <p className='contactitem'>linda3632000@hotmail.com</p></div>
+                <div><a href="../../assets/Resume_Albee_Chen_1102.pdf" download><GetAppIcon className='contactitem'/> <p className='contactitem'>Download resume</p></a></div>
+            </div> 
         </div>
     </div>
 );

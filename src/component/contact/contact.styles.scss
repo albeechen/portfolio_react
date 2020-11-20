@@ -13,6 +13,12 @@
     height: 200px;
     display: flex;
     justify-content: center;
+
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: calc(8px + 2vmin);
+    }
 }
 
 .contactimg{
@@ -37,11 +43,4 @@
     font-family: 'Shadows Into Light', cursive;
     text-align: left;
     display: inline-block;
-
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    font-size: calc(8px + 2vmin);
 }

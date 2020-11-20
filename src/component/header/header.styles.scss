@@ -1,19 +1,21 @@
 .headercontainer{
-    height: auto;
+    height: 300px;
     width: auto;
     margin-bottom: 25px;
     position: fixed;
     z-index: 999;
     background-color: black;
     color: white;
-    right: 15px;
+    right: 0px;
     top: 20%;
+    border: 1px solid rgb(90, 87, 87);
 }
 
 .option{
+    margin-top: 15px;
     padding: 20px 10px;
     cursor: pointer;
-    height: 35px;
+    height: auto;
     text-align: center;
     font-size: 12px;
 }
@@ -24,7 +26,7 @@
     color: white;
 }
 
-.linkoption:active{
-    color: yellow;
-    text-decoration: underline;
+.option:active{
+    background-color: gray;
+    text-decoration: none;
 }

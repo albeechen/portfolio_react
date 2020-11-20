@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useEffect, useCallback } from 'react';
 import data from './portfolio.data.json';
 import './profolio.styles.scss';
 
-const ProfolioPage = () => (  
+const ProfolioPage = () => (
+
+    
     <div className='profoliocontainer'  id='project'>
         <h2 className='profoliotitle'>Project</h2>
         <div className='profoliocontent'>
@@ -17,9 +19,10 @@ const ProfolioPage = () => (
                     </div>
                     </div>
                 </div>
-             ))}
+            ))}
         </div>
     </div>
+    
 );
 
 

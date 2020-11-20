@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useCallback, useEffect } from 'react';
 import data from './skills.data.json';
 import LinearWithValueLabel from './linearprogess.component';
 
 import './skills.styles.scss';
 
-const SkillsPage = () =>  (
+const SkillsPage = () => (
+
     <div className='skillcontainer' id='skills'>
         <h2 className='skillttitle'>SKILL</h2>
         {data.map(({title, value}) => (
@@ -18,6 +19,7 @@ const SkillsPage = () =>  (
             </div>
         ))}   
     </div>
+    
 );
 
 

@@ -7,7 +7,6 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    text-align: center;
     font-family: 'Semibold';
 }
 
@@ -16,16 +15,30 @@
     height: auto;
     color: black;
     position: absolute;
-    font-size: 60px;
     text-align: center;
     left: 10%;
-    font-weight: bold;
+    top: 25%;
     animation-fill-mode: forwards;
     animation: move 3s;
     color: white;
-}
 
-@keyframes move {
-    from {top: 60%;}
-    to {top: 0;}
-  }
+    h2{
+        font-size: 80px;
+        margin: 10px;
+    }
+
+    h6{
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    p{
+        font-size: 25px;
+        margin: 100px;
+    }
+
+    @keyframes move {
+        from {top: 60%;}
+        to {top: 25%;}
+    }
+}
