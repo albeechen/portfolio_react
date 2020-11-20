@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio_react/static/css/main.dcbc43d0.chunk.css",
+    "main.js": "/portfolio_react/static/js/main.196c1091.chunk.js",
+    "main.js.map": "/portfolio_react/static/js/main.196c1091.chunk.js.map",
+    "runtime-main.js": "/portfolio_react/static/js/runtime-main.fbdc6c1d.js",
+    "runtime-main.js.map": "/portfolio_react/static/js/runtime-main.fbdc6c1d.js.map",
+    "static/js/2.98ebca25.chunk.js": "/portfolio_react/static/js/2.98ebca25.chunk.js",
+    "static/js/2.98ebca25.chunk.js.map": "/portfolio_react/static/js/2.98ebca25.chunk.js.map",
+    "index.html": "/portfolio_react/index.html",
+    "static/css/main.dcbc43d0.chunk.css.map": "/portfolio_react/static/css/main.dcbc43d0.chunk.css.map",
+    "static/js/2.98ebca25.chunk.js.LICENSE.txt": "/portfolio_react/static/js/2.98ebca25.chunk.js.LICENSE.txt",
+    "static/media/contact.styles.scss": "/portfolio_react/static/media/carl-heyerdahl-KE0nC8-58MQ-unsplash.12f92121.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fbdc6c1d.js",
+    "static/js/2.98ebca25.chunk.js",
+    "static/css/main.dcbc43d0.chunk.css",
+    "static/js/main.196c1091.chunk.js"
+  ]
+}
